@@ -6,7 +6,7 @@
         <div class="list__items our_services">
         <div class="row">
             @foreach($colorTheme->ourServiceItems as $colorThemeItem)
-                <div class="col-sm-6 col-lg-4 col-md-4 col-xs-12">
+                <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
                     <!-- Post Classic-->
                     <article class="post post-classic box-md">
                         @if(isset($colorThemeItem->image))
