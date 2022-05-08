@@ -13,7 +13,8 @@ class UpdateOurServiceRequest extends Request
     public function rules(): array
     {
         return [
-            'name' => 'bail|required|max:512'
+            'name' => 'bail|required|max:512',
+            'price_from' => 'integer|max:4294967295',
         ];
     }
 

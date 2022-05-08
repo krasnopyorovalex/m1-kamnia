@@ -17,7 +17,7 @@
             <form action="{{ route('admin.our_services.store') }}" method="post" enctype="multipart/form-data">
                 @csrf
                 @input(['name' => 'name', 'label' => 'Название'])
-
+                @input(['name' => 'price_from', 'label' => 'Цена', 'defaultValue' => 0])
                 @imageInput(['name' => 'image', 'type' => 'file', 'label' => 'Выберите изображение на компьютере'])
                 @submit_btn()
             </form>
