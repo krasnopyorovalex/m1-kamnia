@@ -26,7 +26,7 @@
                 <tr>
                     <td><span class="label label-primary">{{ $loop->iteration }}</span></td>
                     <td>{{ $ourService->name }}</td>
-                    <td>{{ $ourService->price_from }}</td>
+                    <td>{{ $ourService->getPrice() }}</td>
                     <td>
                         <div>
                             <a href="{{ route('admin.our_services.edit', $ourService) }}"><i class="icon-pencil7"></i></a>
