@@ -17,7 +17,6 @@
             <tr class="border-solid">
                 <th>#</th>
                 <th>Название</th>
-                <th>Цена от</th>
                 <th></th>
             </tr>
             </thead>

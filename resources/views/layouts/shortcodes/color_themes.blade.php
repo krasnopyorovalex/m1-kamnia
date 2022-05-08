@@ -19,7 +19,9 @@
                         <div class="post-classic-content">
                             <h4 class="post-classic-title"><a href="{{ $colorThemeItem->url }}">{{ $colorThemeItem->name }}</a></h4>
                             <div class="btn__box text-center">
+                                @if($colorThemeItem->price_from)
                                 <div class="mb-2">Цена от {!! $colorThemeItem->getPrice() !!}</div>
+                                @endif
                                 <a class="button button-sm button-secondary button-zakaria" href="{{ $colorThemeItem->url }}">Выбрать цвет</a>
                             </div>
                         </div>
