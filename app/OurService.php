@@ -19,7 +19,7 @@ class OurService extends Model
     /**
      * @var array
      */
-    protected $fillable = ['name'];
+    protected $fillable = ['name', 'price_from'];
 
     protected $with = [
         'image',
