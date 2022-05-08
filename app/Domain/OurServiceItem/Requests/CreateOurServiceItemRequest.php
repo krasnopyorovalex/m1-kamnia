@@ -19,7 +19,8 @@ class CreateOurServiceItemRequest extends Request
             'description' => 'max:512|nullable',
             'text' => 'string|nullable',
             'alias' => 'required|max:255|unique:our_service_items',
-            'image' => 'image'
+            'image' => 'image',
+            'price_from' => 'integer|max:4294967295',
         ];
     }
 

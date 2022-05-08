@@ -30,7 +30,7 @@
                                 <div class="col-md-12">
 
                                     @input(['name' => 'name', 'label' => 'Название', 'entity' => $ourService])
-                                    @input(['name' => 'price_from', 'label' => 'Цена', 'entity' => $ourService])
+
                                 </div>
                             </div>
                         </div>

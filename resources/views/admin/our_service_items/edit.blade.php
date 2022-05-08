@@ -32,6 +32,8 @@
                                 @input(['name' => 'title', 'label' => 'Title', 'entity' => $ourServiceItem])
                                 @input(['name' => 'description', 'label' => 'Description', 'entity' => $ourServiceItem])
 
+                                @input(['name' => 'price_from', 'label' => 'Цена', 'entity' => $ourServiceItem])
+
                                 @input(['name' => 'alias', 'label' => 'Alias', 'entity' => $ourServiceItem])
 
                                 @textarea(['name' => 'text', 'label' => 'Текст', 'entity' => $ourServiceItem])

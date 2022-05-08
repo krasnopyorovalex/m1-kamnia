@@ -22,6 +22,7 @@ class UpdateOurServiceItemRequest extends Request
             'image' => 'image',
             'imageAlt' => 'string|max:255',
             'imageTitle' => 'string|max:255',
+            'price_from' => 'integer|max:4294967295',
             'alias' => [
                 'required',
                 'max:255',

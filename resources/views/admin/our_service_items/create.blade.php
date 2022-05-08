@@ -31,6 +31,8 @@
                             @input(['name' => 'title', 'label' => 'Title'])
                             @input(['name' => 'description', 'label' => 'Description'])
 
+                            @input(['name' => 'price_from', 'label' => 'Цена', 'defaultValue' => 0])
+
                             @input(['name' => 'alias', 'label' => 'Alias'])
                             @imageInput(['name' => 'image', 'type' => 'file', 'label' => 'Выберите изображение на компьютере'])
 

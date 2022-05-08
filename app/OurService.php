@@ -41,12 +41,4 @@ class OurService extends Model
     {
         return $this->hasMany(OurServiceItem::class);
     }
-
-    /**
-     * @return string
-     */
-    public function getPrice(): string
-    {
-        return sprintf('%s &#8381;', number_format($this->price_from, 0, '.', ' '));
-    }
 }

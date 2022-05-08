@@ -19,6 +19,7 @@
                 <th>#</th>
                 <th>Название</th>
                 <th>Категория</th>
+                <th>Цена от</th>
                 <th></th>
             </tr>
             </thead>
@@ -28,6 +29,7 @@
                     <td><span class="label label-primary">{{ $loop->iteration }}</span></td>
                     <td>{{ $ourServiceItem->name }}</td>
                     <td><span class="label label-primary bg-teal-400">{{ $ourServiceItem->ourService->name }}</span></td>
+                    <td>{!! $ourServiceItem->getPrice() !!}</td>
                     <td>
                         <div>
                             <a href="{{ route('admin.our_service_items.edit', $ourServiceItem) }}"><i class="icon-pencil7"></i></a>

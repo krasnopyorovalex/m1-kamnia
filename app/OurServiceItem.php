@@ -54,4 +54,12 @@ class OurServiceItem extends Model
     {
         return route('our_service_item.show', $this->alias);
     }
+
+    /**
+     * @return string
+     */
+    public function getPrice(): string
+    {
+        return sprintf('%s &#8381;', number_format($this->price_from, 0, '.', ' '));
+    }
 }
