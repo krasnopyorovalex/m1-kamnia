@@ -9,10 +9,10 @@
                 <div class="col-sm-6 col-lg-4 col-md-4 col-xs-12">
                     <!-- Post Classic-->
                     <article class="post post-classic box-md">
-                        @if(isset($colorThemeItem->images[0]))
+                        @if(isset($colorThemeItem->image))
                             <figure>
                                 <a class="post-classic-figure" href="{{ $colorThemeItem->url }}">
-                                    <img src="{{ asset($colorThemeItem->images[0]->getThumb()) }}" alt="" width="370" height="239">
+                                    <img src="{{ asset($colorThemeItem->image->path) }}" alt="" width="370" height="239">
                                 </a>
                             </figure>
                         @endif
