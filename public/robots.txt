@@ -1,3 +1,2 @@
 User-agent: *
-Host: https://privatestate-crimea.ru
-Sitemap: https://privatestate-crimea.ru/sitemap.xml
+Disallow: /
