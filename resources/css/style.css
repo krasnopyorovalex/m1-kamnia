@@ -14802,6 +14802,9 @@ h2.adh2 {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
 }
+.product-gallery .our_service-name {
+  margin: 2em 0 0 0;
+}
 .section.product-gallery img {
   max-width: unset;
   width: 100%;
