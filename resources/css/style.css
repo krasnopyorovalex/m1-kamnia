@@ -4763,7 +4763,8 @@ textarea.textarea-lg {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  align-items: center
+  align-items: center;
+  width: 100%;
 }
 .product-modern-figure {
   display: -webkit-box;
