@@ -170,7 +170,7 @@ return [
         //App\Providers\OurServicesServiceProvider::class,
         App\Providers\GalleryServiceProvider::class,
         App\Providers\AdvantagesServiceProvider::class,
-        //App\Providers\PartnersServiceProvider::class,
+        App\Providers\PartnersServiceProvider::class,
         //Darryldecode\Cart\CartServiceProvider::class,
         App\Providers\CategoriesServiceProvider::class,
     ],
