@@ -19,7 +19,7 @@ class CreateCatalogRequest extends Request
             'text' => 'string|nullable',
             'alias' => 'required|string|max:255|unique:catalogs',
             'parent_id' => 'numeric|exists:catalogs,id|nullable',
-            'image' => 'image',
+            'image' => 'mimes:jpeg,png,jpg,gif,svg|max:2048',
             'pos' => 'integer|min:0|max:255'
         ];
     }

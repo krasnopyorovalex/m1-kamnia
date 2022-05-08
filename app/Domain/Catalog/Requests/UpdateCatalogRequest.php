@@ -19,7 +19,7 @@ class UpdateCatalogRequest extends Request
             'description' => 'max:512|string|nullable',
             'text' => 'string|nullable',
             'parent_id' => 'numeric|exists:catalogs,id|nullable',
-            'image' => 'image',
+            'image' => 'mimes:jpeg,png,jpg,gif,svg|max:2048',
             'imageAlt' => 'string|max:255',
             'imageTitle' => 'string|max:255',
             'pos' => 'integer|min:0|max:255',
