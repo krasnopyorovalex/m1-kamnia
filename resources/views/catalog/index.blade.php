@@ -65,25 +65,25 @@
                         </div>
                     </div>
 
-                    <div class="aside row row-30 row-md-50 justify-content-md-between">
-                        <div class="aside-item col-sm-6 col-lg-12">
-                            <div class="aside-title">
-                                <button class="rd-navbar-toggle"><span></span></button>
-                                Выберите город
-                            </div>
-                            <div class="aside-menu">
-                                @if($cities)
-                                    <ul class="list-shop-filter">
-                                        @foreach($cities as $city)
-                                            <li class="{{ $city->alias === request('alias') ? 'active' : '' }}">
-                                                <a href="{{ $city->url }}">{{ $city->name }}</a>
-                                            </li>
-                                        @endforeach
-                                    </ul>
-                                @endif
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="aside row row-30 row-md-50 justify-content-md-between">--}}
+{{--                        <div class="aside-item col-sm-6 col-lg-12">--}}
+{{--                            <div class="aside-title">--}}
+{{--                                <button class="rd-navbar-toggle"><span></span></button>--}}
+{{--                                Выберите город--}}
+{{--                            </div>--}}
+{{--                            <div class="aside-menu">--}}
+{{--                                @if($cities)--}}
+{{--                                    <ul class="list-shop-filter">--}}
+{{--                                        @foreach($cities as $city)--}}
+{{--                                            <li class="{{ $city->alias === request('alias') ? 'active' : '' }}">--}}
+{{--                                                <a href="{{ $city->url }}">{{ $city->name }}</a>--}}
+{{--                                            </li>--}}
+{{--                                        @endforeach--}}
+{{--                                    </ul>--}}
+{{--                                @endif--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
                 <div class="col-lg-8 col-xl-9">
                     <div class="row row-30 row-lg-50">
