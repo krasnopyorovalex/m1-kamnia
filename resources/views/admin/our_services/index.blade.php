@@ -17,7 +17,7 @@
             <tr class="border-solid">
                 <th>#</th>
                 <th>Название</th>
-                <th>Alias</th>
+                <th>Цена от</th>
                 <th></th>
             </tr>
             </thead>
@@ -26,7 +26,7 @@
                 <tr>
                     <td><span class="label label-primary">{{ $loop->iteration }}</span></td>
                     <td>{{ $ourService->name }}</td>
-                    <td>{{ $ourService->alias }}</td>
+                    <td>{{ $ourService->price_from }}</td>
                     <td>
                         <div>
                             <a href="{{ route('admin.our_services.edit', $ourService) }}"><i class="icon-pencil7"></i></a>
