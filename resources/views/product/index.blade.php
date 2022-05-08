@@ -82,8 +82,11 @@
             </div>
         </div>
     </section>
-    @includeWhen($product->colorTheme && count($product->colorTheme->ourServiceItems), 'layouts.sections.product_color_theme', ['$product' => $product])
+
     @includeWhen(count($product->images), 'layouts.sections.product_gallery', ['$product' => $product])
+
+    @includeWhen($product->colorTheme && count($product->colorTheme->ourServiceItems), 'layouts.sections.product_color_theme', ['$product' => $product])
+
     <section class="section section-sm bg-default">
         <div class="container">
             <div class="row">
