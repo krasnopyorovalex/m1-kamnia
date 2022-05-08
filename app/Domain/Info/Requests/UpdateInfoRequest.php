@@ -19,7 +19,7 @@ class UpdateInfoRequest extends Request
             'description' => 'max:512',
             'text' => 'required|string',
             'is_published' => 'digits_between:0,1',
-            'image' => 'image',
+            'image' => 'mimes:jpeg,png,jpg,gif,svg|max:2048',
             'imageAlt' => 'string|max:255',
             'imageTitle' => 'string|max:255',
             'alias' => [

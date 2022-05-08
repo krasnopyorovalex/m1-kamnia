@@ -70,22 +70,13 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="yandex-map-container" id="map-yandex"></div>
+    <section class="section-banner">
+        <img src="{{ asset('images/banner-01.png') }}" alt="">
     </section>
 
-    <section>
-        <div class="container">
-            <div class="row row-30 mt-5">
-                <div class="col-md-12">
-                    <div class="seo-text">
-                        <h4>О нас</h4>
-                        <p>Фабрика искусственного камня ELEMENT была основана в 2010г., в Крыму, г.Симферополь.</p>
-                        <p>Наши столешницы для кухни из искусственного камня по праву считаются одними из лучших! Так же, наши мастера изготавливают подоконники и мойки из камня любой конфигурации и сложности! Для ванных комнат мы можем предложить современные ванны из акрилового камня и элементы интерьера, которые прослужат не один десяток лет!</p>
-                        <p>Работаем по всему Крыму, с бесплатным выездом замерщика и доставкой!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    @includeWhen($partners, 'layouts.sections.partners')
+
+    <section class="section">
+        <div class="yandex-map-container" id="map-yandex"></div>
     </section>
 @endsection

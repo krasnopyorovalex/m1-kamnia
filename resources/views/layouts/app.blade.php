@@ -162,7 +162,7 @@
                                     <div class="unit unit-spacing-sm flex-column flex-md-row">
                                         <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
                                         <div class="unit-body">
-                                            298600, Республика Крым, Ялта г., ул. К. Маркса, д. 15а, оф. 3-3
+                                            г. Симферополь, Москалева 13/2
                                         </div>
                                     </div>
                                 </li>
@@ -192,7 +192,7 @@
                 <div class="container">
                     <div class="row row-10 align-items-center justify-content-sm-between">
                         <div class="col-md-auto">
-                            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>ООО "Private Estate"</span><span>.&nbsp;Все права защищены.</span></p>
+                            <p class="rights"><span>&copy;&nbsp;2010 - {{ date('Y') }}</span><span class="copyright-year"></span><span>&nbsp;</span><span>Фабрика искусственного камня ELEMENT</span><span>.&nbsp;Все права защищены.</span></p>
                         </div>
                         <div class="col-md-auto">
                             <div class="develop">

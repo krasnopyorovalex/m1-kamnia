@@ -19,7 +19,7 @@ class CreateInfoRequest extends Request
             'text' => 'required|string',
             'alias' => 'required|max:64|unique:infos',
             'is_published' => 'digits_between:0,1',
-            'image' => 'image',
+            'image' => 'mimes:jpeg,png,jpg,gif,svg|max:2048',
             'published_at' => 'date'
         ];
     }

@@ -44,9 +44,7 @@
     @includeWhen($page->gallery, 'layouts.sections.gallery', ['gallery' => $page->gallery])
 
     <section class="section">
-        <div>
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad2739ff287667580fcb7de1950e661284399f334acd36bcc247542127041b3a6&amp;source=constructor&amp;scroll=false" width="100%" height="450" frameborder="0"></iframe>
-        </div>
+        <div class="yandex-map-container" id="map-yandex"></div>
     </section>
 
 @endsection
