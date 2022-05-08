@@ -71,7 +71,13 @@
     </section>
 
     <section class="section-banner">
-        <img src="{{ asset('images/banner-01.png') }}" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="{{ asset('images/banner-01.png') }}" alt="">
+                </div>
+            </div>
+        </div>
     </section>
 
     @includeWhen($partners, 'layouts.sections.partners')
