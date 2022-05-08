@@ -14,6 +14,10 @@
                     </div>
                 </article>
                 @endif
+                @if($colorThemeItem->price_from)
+                    <div class="mb-2">Цена от {!! $colorThemeItem->getPrice() !!}</div>
+                @endif
+                <a class="button button-sm button-secondary button-zakaria" href="{{ $colorThemeItem->url }}">Выбрать цвет</a>
             </div>
             @endforeach
         </div>
