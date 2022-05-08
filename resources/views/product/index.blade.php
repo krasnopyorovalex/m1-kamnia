@@ -126,7 +126,7 @@
             </div>
         </section>
     @else
-        @includeWhen($partners, 'layouts.forms.question_form')
+        @include('layouts.forms.question_form')
     @endif
 
 @endsection

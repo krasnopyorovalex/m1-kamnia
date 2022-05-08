@@ -28,7 +28,7 @@
 
     @includeWhen($advantages, 'layouts.sections.advantages')
 
-    @includeWhen($partners, 'layouts.forms.question_form')
+    @include('layouts.forms.question_form')
 
     <section class="section-banner">
         <div class="container">
