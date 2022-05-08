@@ -19,7 +19,8 @@
                         <div class="post-classic-content">
                             <h4 class="post-classic-title"><a href="{{ $colorThemeItem->url }}">{{ $colorThemeItem->name }}</a></h4>
                             <div class="btn__box text-center">
-                                <a class="button button-sm button-secondary button-zakaria" href="{{ $colorThemeItem->url }}">Подробнее</a>
+                                <div class="">Цена от </div>
+                                <a class="button button-sm button-secondary button-zakaria" href="{{ $colorThemeItem->url }}">Выбрать цвет</a>
                             </div>
                         </div>
                     </article>
