@@ -161,6 +161,7 @@
                     <li>Новости - {news}</li>
 {{--                    <li>Наши услуги - {our_services}</li>--}}
 {{--                    <li>Наши проекты - {projects}</li>--}}
+                    <li>Цветовая палитра - {color_themes}</li>
                     <li>Категории каталога - {catalog}</li>
                     <li>Карта сайта - {sitemap}</li>
                 </ul>

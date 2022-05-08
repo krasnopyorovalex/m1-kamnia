@@ -56,6 +56,13 @@ class TextParserService
                     return view('layouts.shortcodes.projects', [
                         'projects' => $projects
                     ]);
+                },
+                '#(<p(.*)>)?{color_themes}(<\/p>)?#' => function () {
+                    $colorThemes = $this->dispatch(new GetAllOurServicesQuery());
+
+                    return view('layouts.shortcodes.color_themes', [
+                        'colorThemes' => $colorThemes
+                    ]);
                 }
             ],
             $entity->text
