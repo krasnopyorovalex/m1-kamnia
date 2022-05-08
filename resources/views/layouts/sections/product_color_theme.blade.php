@@ -15,7 +15,7 @@
                 </article>
                 @endif
                 @if($ourServiceItem->price_from)
-                    <div class="mb-2">Цена от {!! $ourServiceItem->getPrice() !!}</div>
+                    <div>Цена от {!! $ourServiceItem->getPrice() !!}</div>
                 @endif
                 <a class="button button-sm button-secondary button-zakaria" href="{{ $ourServiceItem->url }}">Выбрать цвет</a>
             </div>
