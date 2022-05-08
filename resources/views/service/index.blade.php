@@ -25,7 +25,7 @@
             <div class="container">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="{{ route('page.show') }}">Главная</a></li>
-                    <li><a href="{{ route('page.show', ['alias' => 'services']) }}">Наши услуги</a></li>
+                    <li><a href="{{ route('page.show', ['alias' => 'tseny']) }}">Цены {{ date('Y') }}</a></li>
                     <li class="active">{{ $service->name }}</li>
                 </ul>
             </div>
