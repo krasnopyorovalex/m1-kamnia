@@ -46,7 +46,7 @@
     <div class="container">
         <div class="row row-30 isotope" data-lightgallery="group">
             @foreach ($service->images as $image)
-                <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12">
+                <div class="col-md-3 col-sm-3 col-lg-3 col-xs-12">
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail-classic">
                         <div class="thumbnail-classic-figure">
@@ -68,7 +68,7 @@
                     <div class="form_question in_content">
                         <div class="form_info"><p>Получить смету - «{{ $service->name }}»</p></div>
                         <div>
-                            <form action="{{ route('send.order_service_item') }}" onsubmit="yaCounter54461437.reachGoal('ZAKAZ_USLUGI'); return true" class="rd-form rd-mailform rd-form-inline rd-form-inline-2" method="post" id="form__subscribe">
+                            <form action="{{ route('send.order_service_item') }}" class="rd-form rd-mailform rd-form-inline rd-form-inline-2" method="post" id="form__subscribe">
                                 @csrf
                                 <input type="hidden" name="service" value="{{ $service->name }}">
                                 <div class="form-wrap">
