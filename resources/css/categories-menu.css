@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #007A96;
+    background-color: #964E20;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
@@ -34,7 +34,7 @@
 }
 
 .categories-menu > ul > li:hover > a, .categories-menu > ul > li.active > a {
-    background-color: #005F81;
+    background-color: #813A17;
 }
 
 .categories-menu > ul > li + li {
@@ -67,7 +67,7 @@
 }
 
 .categories-menu .categories-sub-menu li:hover {
-    background-color: #005F81;
+    background-color: #813A17;
 }
 
 .categories-menu .categories-sub-menu li a {

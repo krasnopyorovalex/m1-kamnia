@@ -482,10 +482,10 @@ a:hover {
 a,
 a:active,
 a:focus {
-  color: #005F81
+  color: #813A17
 }
 a:hover {
-  color: #005F81
+  color: #813A17
 }
 a[href*=mailto],
 a[href*=tel] {
@@ -3971,16 +3971,16 @@ textarea.textarea-lg {
   background-position: center;
   position: relative;
 }
-.breadcrumbs-custom-body:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, .4);
-  z-index: -1;
-}
+/*.breadcrumbs-custom-body:after {*/
+/*  position: absolute;*/
+/*  content: "";*/
+/*  top: 0;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*  background-color: rgba(0, 0, 0, .4);*/
+/*  z-index: -1;*/
+/*}*/
 .context-dark .breadcrumbs-custom-title {
   text-shadow: 3px 9px 16px rgba(0,0,0,.18);
   color: #fff;
@@ -4650,7 +4650,7 @@ textarea.textarea-lg {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0;
-  color: #0FC46A
+  color: #35A41F
 }
 .product-price-old {
   font-weight: 400;
@@ -5105,7 +5105,7 @@ textarea.textarea-lg {
   line-height: 1;
   font-weight: 700;
   letter-spacing: .05em;
-  color: #0FC46A
+  color: #35A41F
 }
 .single-product-rating .icon {
   font-size: 25px;
@@ -7325,12 +7325,13 @@ html:not(.lt-ie10) .not-animated {
 .ui-to-top:active,
 .ui-to-top:focus {
   color: #fff;
-  background: #007A96;
+  background: #964E20;
 }
 .ui-to-top:hover {
   opacity: 1;
   color: #fff;
   text-decoration: none;
+  background-color: #813A17;
 }
 .ui-to-top.active {
   -webkit-transform: translate3d(0,0,0);
@@ -14291,7 +14292,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin: 2em 0;
 }
 .list-shop-filter li.active a {
-  color: #0FC46A
+  color: #35A41F
 }
 .our_service-name {
   display: block;
@@ -14379,12 +14380,12 @@ textarea:focus::placeholder {
 }
 .form_question .rd-form-inline .form-button .button {
   padding: 14px 24px;
-  background-color:#007A96;
+  background-color:#964E20;
   color: #fff;
   border: none;
 }
 .form_question .rd-form-inline .form-button .button:hover {
-  background-color: #005F81
+  background-color: #813A17
 }
 footer .develop {
   text-align: right
@@ -14749,7 +14750,7 @@ h2.adh2 {
   height: 100%;
 }
 .header-contacts {
-  background-color: #2f4c58;
+  background-color: #7A3002;
   padding: .5rem 0;
 }
 .header-contacts address,
