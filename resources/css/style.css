@@ -2282,13 +2282,13 @@ hr {
 .button-secondary:focus {
   color: #fff;
   background-color:#964E20;
-  border-color: #813A17;
+  border-color: #964E20;
 }
 .button-secondary:active,
 .button-secondary:hover {
   color: #fff;
-  background-color: #005F81;
-  border-color: #005F81
+  background-color: #813A17;
+  border-color: #813A17
 }
 .button-secondary.button-ujarak::before {
   background: #005F81
