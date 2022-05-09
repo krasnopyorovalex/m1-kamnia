@@ -14647,14 +14647,14 @@ h2.adh2 {
   font-weight: 700;
 }
 .swiper-slider .button-secondary, .swiper-slider .button-secondary:focus {
-  background-color: #007A96;
+  background-color: #964E20;
   border: none;
   color: #fff
 }
 .swiper-slider .button-secondary:active,
 .swiper-slider .button-secondary:hover {
   color: #fff;
-  background-color: #005F81;
+  background-color: #813A17;
 }
 .with-preview img {
   display: inline-block;
