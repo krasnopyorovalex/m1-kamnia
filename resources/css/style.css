@@ -2227,14 +2227,14 @@ hr {
 .button-primary,
 .button-primary:focus {
   color: #fff;
-  background-color: #007A96;
-  border-color: #007A96
+  background-color:#964E20;
+  border-color: #964E20
 }
 .button-primary:active,
 .button-primary:hover {
   color: #fff;
-  background-color: #005F81;
-  border-color: #005F81
+  background-color: #813A17;
+  border-color: #813A17
 }
 .button-primary.button-ujarak::before {
   background: #e9da5d
