@@ -19,6 +19,6 @@ class CategoriesServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->make('view')->composer(['layouts.app'], CategoriesComposer::class);
+        $this->app->make('view')->composer(['layouts.app', 'page.index'], CategoriesComposer::class);
     }
 }

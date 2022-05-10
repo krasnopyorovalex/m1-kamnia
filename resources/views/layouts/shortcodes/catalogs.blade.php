@@ -13,12 +13,15 @@
                 <h5 class="product-title">
                     <a href="{{ $item->url }}">{{ $item->name }}</a>
                 </h5>
+                    <div class="btn__box">
+                        <a class="button button-sm button-secondary button-zakaria" href="{{ $item->url }}">Подробнее</a>
+                    </div>
             </div>
-            <div class="product-button-wrap">
-                <div class="product-button">
-                    <a class="button button-secondary fl-bigmug-line-search74" href="{{ $item->url }}"></a>
-                </div>
-            </div>
+{{--            <div class="product-button-wrap">--}}
+{{--                <div class="product-button">--}}
+{{--                    <a class="button button-secondary fl-bigmug-line-search74" href="{{ $item->url }}"></a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
         </article>
         </div>
     @endforeach

@@ -16,6 +16,7 @@
 
     @includeWhen($page->slider, 'layouts.sections.slider', ['slider' => $page->slider])
 
+    @if($page->text)
     <section class="section section-inset-2 bg-default text-md-left main-text">
         <div class="container">
             <div class="row">
@@ -23,6 +24,13 @@
                     {!! $page->text !!}
                 </div>
             </div>
+        </div>
+    </section>
+    @endif
+
+    <section class="section-inset-2 bg-default">
+        <div class="container">
+            @include('layouts.shortcodes.catalogs', ['catalogs' => $categories])
         </div>
     </section>
 
