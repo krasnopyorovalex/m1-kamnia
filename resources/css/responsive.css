@@ -3187,7 +3187,7 @@
         position: relative;
         left: unset;
         right: unset;
-        padding: .5rem 0 .5rem 1rem;
+        padding: .5rem 0 .5rem 2rem;
     }
     .active .categories-menu .categories-sub-menu li {
         border: none;
