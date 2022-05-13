@@ -791,7 +791,7 @@ jQuery(document).ajaxError(function () {
             return false;
         }
         var myMapTemp = new ymaps.Map("map-yandex", {
-            center: [44.958692, 34.075093],
+            center: [44.958698, 34.071122],
             zoom: 17,
             controls: ['zoomControl', 'fullscreenControl']
         });
