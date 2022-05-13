@@ -58,7 +58,6 @@
                                     </a>
                                 </div>
                                 <a class="mobile_phone" href="tel:+79785779775">
-                                    <span class="icon mdi mdi-phone"></span>
                                     +7 (978) 577-97-75
                                 </a>
                                 <span class="h-icons-list mobile_phone">
