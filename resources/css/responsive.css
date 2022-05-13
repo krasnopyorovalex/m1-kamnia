@@ -4247,7 +4247,7 @@
 
     .categories-menu .categories-sub-menu,
     .categories-menu .categories-sub-menu li a:hover,
-    .active .categories-menu > ul > li:hover {
+    .categories-menu > ul > li:hover, .categories-menu > ul > li a:hover {
         background: #f5f5f5;
     }
 }
