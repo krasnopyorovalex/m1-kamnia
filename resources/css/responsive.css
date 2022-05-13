@@ -3358,7 +3358,7 @@
     .img-big {
         height: auto;
     }
-    .categories-menu .categories-sub-menu, .categories-menu .categories-sub-menu li:hover {
+    .categories-menu .categories-sub-menu, .categories-menu .categories-sub-menu li a:hover {
         background: #f5f5f5;
     }
 }
