@@ -801,7 +801,7 @@ jQuery(document).ajaxError(function () {
         var myPlacemarkTemp = new ymaps.GeoObject({
             geometry: {
                 type: "Point",
-                coordinates: [44.497762, 34.167027]
+                coordinates: [44.958698, 34.071122]
             }
         });
         myMapTemp.geoObjects.add(myPlacemarkTemp);

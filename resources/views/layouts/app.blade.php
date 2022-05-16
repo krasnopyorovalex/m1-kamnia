@@ -161,7 +161,7 @@
                                     <div class="unit unit-spacing-sm flex-column flex-md-row">
                                         <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
                                         <div class="unit-body">
-                                            г. Симферополь, Москалева 13/2
+                                            г. Симферополь, Западная 3В
                                         </div>
                                     </div>
                                 </li>
@@ -173,6 +173,7 @@
                                             <span class="h-icons-list">
                                                 <a href="https://wa.me/79789455747" rel="noopener noreferrer"><img src="{{ asset('images/whatsapp.svg') }}" alt=""></a>
                                                 <a href="viber://add?number=79789455747" rel="noopener noreferrer"><img src="{{ asset('images/viber.svg') }}" alt=""></a>
+                                                <a href="" rel="noopener noreferrer"><img src="{{ asset('images/telegram.svg') }}" alt=""></a>
                                             </span>
                                         </div>
                                     </div>
