@@ -776,7 +776,7 @@ jQuery(document).ajaxError(function () {
 
     var ymap = function() {
         jQuery(window).scroll(function(){
-                if (!check_if_load && window.pageYOffset >= halfHeightDocument) {
+                if (!check_if_load && window.pageYOffset >= halfHeightDocument && document.location.href !== 'https://xn--1-7sbp0aweh.xn--p1ai/kontakty') {
                     check_if_load = true;
                     loadScript("https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;loadByRequire=1", function(){
                         ymaps.load(init);
@@ -784,6 +784,13 @@ jQuery(document).ajaxError(function () {
                 }
             }
         );
+
+        if (document.location.href === 'https://xn--1-7sbp0aweh.xn--p1ai/kontakty') {
+            check_if_load = true;
+            loadScript("https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;loadByRequire=1", function(){
+                ymaps.load(init);
+            });
+        }
     };
 
     function init () {
