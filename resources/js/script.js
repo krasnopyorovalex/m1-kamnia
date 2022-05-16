@@ -772,7 +772,7 @@ jQuery(document).ajaxError(function () {
     }
 
     var check_if_load = false;
-    var halfHeightDocument = $(document).height() / 10;
+    var halfHeightDocument = $(document).height() / 12;
 
     var ymap = function() {
         jQuery(window).scroll(function(){
