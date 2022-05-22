@@ -35,7 +35,7 @@
     </section>
 
     @includeWhen($advantages, 'layouts.sections.advantages')
-    @includeWhen($guestbook, 'layouts.sections.guestbook')
+    @include('layouts.sections.guestbook')
 
     @include('layouts.forms.question_form')
 
