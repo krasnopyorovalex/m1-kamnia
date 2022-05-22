@@ -6,7 +6,7 @@
             </div>
             <div class="col-12">
                 <div class="owl-carousel" data-items="1" data-sm-items="1" data-md-items="2"
-                     data-lg-items="3" data-margin="5" data-dots="true">
+                     data-lg-items="3" data-margin="5" data-dots="true" data-loop="false">
                     @foreach($guestbookLast as $item)
                         <div class="guestbook-item">
                             <div class="guestbook-item__name">{{ $item->name }}</div>
