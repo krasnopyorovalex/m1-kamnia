@@ -163,7 +163,7 @@ return [
         App\Providers\UploadImagesServiceProvider::class,
         App\Providers\LinkGeneratorServiceProvider::class,
         App\Providers\TreeRecursiveBuildServiceProvider::class,
-        //App\Providers\GuestbookServiceProvider::class,
+        App\Providers\GuestbookServiceProvider::class,
         App\Providers\MenuServiceProvider::class,
         App\Providers\ArticlesServiceProvider::class,
         App\Providers\TextParserServiceProvider::class,

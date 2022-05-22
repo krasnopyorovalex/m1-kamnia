@@ -17,6 +17,6 @@ class GuestbookServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->make('view')->composer('*', GuestbookComposer::class);
+        $this->app->make('view')->composer('layouts.sections.guestbook', GuestbookComposer::class);
     }
 }
