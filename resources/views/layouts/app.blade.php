@@ -91,7 +91,7 @@
                                     <span class="h-icons-list">
                                         <a href="https://wa.me/79785779775" rel="noopener noreferrer"><img src="{{ asset('images/whatsapp.svg') }}" alt=""></a>
                                         <a href="viber://add?number=79785779775" rel="noopener noreferrer"><img src="{{ asset('images/viber.svg') }}" alt=""></a>
-                                        <a href="" rel="noopener noreferrer"><img src="{{ asset('images/telegram.svg') }}" alt=""></a>
+                                        <a href="https://t.me/master_N1_rf" rel="noopener noreferrer"><img src="{{ asset('images/telegram.svg') }}" alt=""></a>
                                     </span>
                                 </div>
                             </div>
