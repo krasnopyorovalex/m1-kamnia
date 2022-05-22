@@ -21,7 +21,7 @@ class GuestbookComposer
             self::$guestbook = $this->dispatch(new GetAllGuestbookQuery(true, 10));
         }
 
-        $view->with('guestbookLast', self::$guestbook->take(3));
+        $view->with('guestbookLast', self::$guestbook->take(5));
         $view->with('guestbookAll', self::$guestbook);
     }
 }
