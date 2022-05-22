@@ -4054,6 +4054,10 @@
         border: none;
     }
 
+    .rd-navbar-fixed .rd-navbar-nav-wrap {
+        border: none;
+    }
+
     .mobile_phone {
         display: block;
     }
