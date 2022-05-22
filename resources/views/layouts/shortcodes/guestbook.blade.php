@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row row-30 justify-content-center align-items-md-center">
             <div class="col-xl-12">
-                <div class="owl-carousel owl-style-6" data-items="1" data-sm-items="1" data-md-items="2" data-lg-items="3" data-margin="30" data-dots="true">
+                <div class="owl-carousel owl-style-6" data-items="1" data-sm-items="1" data-md-items="2" data-lg-items="3" data-margin="5" data-dots="true">
                     @foreach($guestbook as $item)
                         <div class="guestbook-item">
                             <div class="guestbook-item__name">{{ $item->name }}</div>

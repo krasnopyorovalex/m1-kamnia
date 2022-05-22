@@ -14668,14 +14668,17 @@ h2.adh2 {
 }
 .guestbook-item {
   margin: .5rem;
-  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(1,3,4,.19);
 }
 .guestbook-item__name {
   font-weight: 700;
-  margin: 0 0 1rem 0;
+  margin: 0 0 .5rem 0;
 }
 .guestbook-item__text p {
   text-align: left;
+  font-size: 14px;
 }
 .main-text, .seo-text {
   font-size: 18px;
