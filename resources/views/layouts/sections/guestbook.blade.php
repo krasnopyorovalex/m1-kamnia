@@ -19,7 +19,7 @@
             </div>
             <div class="col-12">
                 <div class="btn__see-all">
-                    <a href="{{ route('page.show', ['alias' => 'guestbook']) }}" class="button button-sm button-secondary mt-3">Читать все отзывы</a>
+                    <a href="{{ route('page.show', ['alias' => 'guestbook']) }}" class="button button-sm button-secondary mt-5">Читать все отзывы</a>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 <!-- About Us-->
-<section class="section section-inset-2 bg-default text-md-left">
+<section class="section section-inset bg-default text-md-left">
     <div class="container">
         <div class="row row-30 align-items-start justify-content-center">
             <div class="col-md-12 col-lg-12">
