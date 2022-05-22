@@ -4051,6 +4051,7 @@
         top: 16rem;
         bottom: 0;
         overflow-y: auto;
+        border: none;
     }
 
     .mobile_phone {
