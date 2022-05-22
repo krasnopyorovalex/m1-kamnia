@@ -34,7 +34,7 @@
                                         <span class="fa-vk"></span>
                                     </a>
                                     <a href="https://instagram.com/stoleshka_24?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
-                                        <span class="fa-inst"></span>
+                                        <span class="fa-instagram"></span>
                                     </a>
                                 </div>
                             </div>
