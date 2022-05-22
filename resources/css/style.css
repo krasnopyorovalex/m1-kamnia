@@ -14666,6 +14666,17 @@ h2.adh2 {
   align-items: center;
   text-align: left;
 }
+.guestbook-item {
+  margin: .5rem;
+  border: 1px solid #ccc;
+}
+.guestbook-item__name {
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+.guestbook-item__text p {
+  text-align: left;
+}
 .main-text, .seo-text {
   font-size: 18px;
   color: #000;
