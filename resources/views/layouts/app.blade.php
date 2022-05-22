@@ -22,7 +22,7 @@
                         <div class="header-contacts-items">
                             <address>
                                 <span class="icon mdi mdi-map-marker"></span>
-                                г. Симферополь, Москалева 13/2
+                                г. Симферополь, Западная 3В
                             </address>
                             <div class="email">
                                 <span class="icon mdi mdi-email"></span>
@@ -30,8 +30,11 @@
                             </div>
                             <div class="socials">
                                 <div>
-                                    <a href="https://vk.com/club186832395" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://vk.com/massster1" target="_blank" rel="noopener noreferrer">
                                         <span class="fa-vk"></span>
+                                    </a>
+                                    <a href="https://instagram.com/stoleshka_24?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
+                                        <span class="fa-inst"></span>
                                     </a>
                                 </div>
                             </div>
@@ -58,12 +61,12 @@
                                     </a>
                                 </div>
                                 <a class="mobile_phone" href="tel:+79785779775">
-                                    +7 (978) 577-97-75
+                                    +7 978 577-9-775
                                 </a>
                                 <span class="h-icons-list mobile_phone">
                                     <a href="https://wa.me/79789455747" rel="noopener noreferrer"><img src="{{ asset('images/whatsapp.svg') }}" alt=""></a>
                                     <a href="viber://add?number=79789455747" rel="noopener noreferrer"><img src="{{ asset('images/viber.svg') }}" alt=""></a>
-                                    <a href="" rel="noopener noreferrer"><img src="{{ asset('images/telegram.svg') }}" alt=""></a>
+                                    <a href="https://t.me/master_N1_rf" rel="noopener noreferrer"><img src="{{ asset('images/telegram.svg') }}" alt=""></a>
                                 </span>
                             </div>
                             <div class="rd-navbar-nav-wrap">
@@ -83,7 +86,7 @@
                                 <div>
                                     <a href="tel:+79785779775" class="h-phone">
                                         <span class="fa-phone"></span>
-                                        +7 (978) 577-97-75
+                                        +7 978 577-9-775
                                     </a>
                                     <span class="h-icons-list">
                                         <a href="https://wa.me/79785779775" rel="noopener noreferrer"><img src="{{ asset('images/whatsapp.svg') }}" alt=""></a>
@@ -147,8 +150,8 @@
                                     <p>Мы в соцсетях:</p>
                                     <div>
                                         <ul class="list-inline list-social list-inline-sm">
-                                            <li><a class="icon mdi mdi-vk" href="https://vk.com/privateestatecrimea" target="_blank" rel="noopener noreferrer"></a></li>
-{{--                                            <li><a class="icon mdi mdi-instagram" href="https://www.instagram.com/fabrika_bani/" target="_blank"></a></li>--}}
+                                            <li><a class="icon mdi mdi-vk" href="https://vk.com/massster1" target="_blank" rel="noopener noreferrer"></a></li>
+                                            <li><a class="icon mdi mdi-instagram" href="https://instagram.com/stoleshka_24?igshid=YmMyMTA2M2Y=" target="_blank"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -169,11 +172,11 @@
                                     <div class="unit unit-spacing-sm flex-column flex-md-row">
                                         <div class="unit-left"><span class="icon mdi mdi-phone"></span></div>
                                         <div class="unit-body">
-                                            <a href="tel:+79789455747">+7 (978) 94-557-47</a>
+                                            <a href="tel:+79789455747">+7 978 577-9-775</a>
                                             <span class="h-icons-list">
                                                 <a href="https://wa.me/79789455747" rel="noopener noreferrer"><img src="{{ asset('images/whatsapp.svg') }}" alt=""></a>
                                                 <a href="viber://add?number=79789455747" rel="noopener noreferrer"><img src="{{ asset('images/viber.svg') }}" alt=""></a>
-                                                <a href="" rel="noopener noreferrer"><img src="{{ asset('images/telegram.svg') }}" alt=""></a>
+                                                <a href="https://t.me/master_N1_rf" rel="noopener noreferrer"><img src="{{ asset('images/telegram.svg') }}" alt=""></a>
                                             </span>
                                         </div>
                                     </div>
@@ -192,7 +195,7 @@
                 <div class="container">
                     <div class="row row-10 align-items-center justify-content-sm-between">
                         <div class="col-md-auto">
-                            <p class="rights"><span>&copy;&nbsp;2010 - {{ date('Y') }}</span><span class="copyright-year"></span><span>&nbsp;</span><span>Фабрика искусственного камня ELEMENT</span><span>.&nbsp;Все права защищены.</span></p>
+                            <p class="rights"><span>&copy;&nbsp;2010 - {{ date('Y') }}</span><span class="copyright-year"></span><span>&nbsp;</span><span>Фабрика искусственного камня</span><span>.&nbsp;Все права защищены.</span></p>
                         </div>
                         <div class="col-md-auto">
                             <div class="develop">
