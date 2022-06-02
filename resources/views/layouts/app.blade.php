@@ -195,7 +195,7 @@
                 <div class="container">
                     <div class="row row-10 align-items-center justify-content-sm-between">
                         <div class="col-md-auto">
-                            <p class="rights"><span>&copy;&nbsp;2010 - {{ date('Y') }}</span><span class="copyright-year"></span><span>&nbsp;</span><span>Фабрика искусственного камня</span><span>.&nbsp;Все права защищены.</span></p>
+                            <p class="rights"><span>&copy;&nbsp;2010 - {{ date('Y') }}</span><span class="copyright-year"></span><span>&nbsp;</span><span>Мастер № 1</span><span>.&nbsp;Все права защищены.</span></p>
                         </div>
                         <div class="col-md-auto">
                             <div class="develop">
