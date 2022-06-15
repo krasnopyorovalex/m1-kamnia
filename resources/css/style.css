@@ -1546,7 +1546,7 @@ html .group-custom > * {
 }
 .unit-spacing-sm > * {
   margin-bottom: 10px;
-  margin-left: 20px
+  margin-left: 10px
 }
 .unit-spacing-md {
   margin-bottom: -20px;
@@ -4215,7 +4215,11 @@ textarea.textarea-lg {
 }
 .contacts-creative {
   letter-spacing: .05em;
-  color: #151515
+  color: #151515;
+  font-size: 18px;
+}
+.contacts-creative li {
+  text-decoration: underline;
 }
 .contacts-creative a,
 .contacts-creative a:active,
@@ -14754,6 +14758,9 @@ h2.adh2 {
 }
 .section-banner img {
   width: 100%;
+}
+.q-form {
+  background-color: #f5f5f5;
 }
 .bg-inside-pages {
   background: url("../images/bg-inside-pages.jpg");

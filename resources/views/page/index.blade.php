@@ -39,7 +39,7 @@
 
     @include('layouts.forms.question_form')
 
-    <section class="section-banner">
+    <section class="section-banner mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
