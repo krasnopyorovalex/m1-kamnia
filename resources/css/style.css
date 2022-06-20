@@ -14877,3 +14877,47 @@ h2.adh2 {
 .group-name a:hover {
   text-decoration: underline;
 }
+.list-counter-square {
+  list-style: none;
+  counter-reset: list;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.list-counter-square>li {
+  position: relative;
+  display: block;
+  line-height: normal;
+  margin-left: 2rem;
+  margin-bottom: .4rem;
+  padding: .5rem;
+  background: #dee2e6;
+}
+.list-counter-square>li:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 3px;
+}
+.list-counter-square>li:first-child {
+  border-top-right-radius: 3px;
+}
+.list-counter-square>li::before {
+  content: counter(list);
+  counter-increment: list;
+  position: absolute;
+  left: -2rem;
+  top: 0;
+  bottom: 0;
+  width: 2rem;
+  text-align: center;
+  color: #fff;
+  background: #964e20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-counter-square>li:last-child:before {
+  border-bottom-left-radius: 3px;
+}
+.list-counter-square>li:first-child:before {
+  border-top-left-radius: 3px;
+}
