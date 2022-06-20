@@ -2752,7 +2752,7 @@ input:-webkit-autofill ~ label {
   -webkit-appearance: none;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  border: 1px solid #e1e1e1;
+  border-bottom: 1px solid #151515;
   border-width: 0 0 1px
 }
 .form-input:focus {
@@ -14920,4 +14920,7 @@ h2.adh2 {
 }
 .list-counter-square>li:first-child:before {
   border-top-left-radius: 3px;
+}
+.text-size-small {
+  font-size: 14px;
 }

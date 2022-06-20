@@ -7,7 +7,10 @@
                     <div class="group-middle d-md-flex justify-content-md-start wow fadeInRight" data-wow-delay=".3s">
                         <div class="form_question">
                             <div>
-                                <div class="form_info"><p>Задать вопрос</p></div>
+                                <div class="form_info">
+                                    <p class="text-uppercase">Появились вопросы?</p>
+                                    <p class="text-muted">Оставляйте свои контакты, мы свяжемся с Вами в  в ближайшее время</p>
+                                </div>
                                 <form action="{{ route('send.question') }}"
                                       class="rd-form rd-mailform rd-form-inline rd-form-inline-2" method="post"
                                       id="form__subscribe">
@@ -26,6 +29,7 @@
                                         </button>
                                     </div>
                                 </form>
+                                <p class="text-size-small">*Отправкой данной формы - подтверждаю, что даю согласие на обработку своих персональных данных, согласно 152-ФЗ</p>
                             </div>
                         </div>
                     </div>
