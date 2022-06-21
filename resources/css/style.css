@@ -14785,6 +14785,7 @@ h2.adh2 {
 }
 .q-form .form_info > p:first-child {
   text-decoration: underline;
+  font-size: 24px;
 }
 .bg-inside-pages {
   background: url("../images/bg-inside-pages.jpg");
