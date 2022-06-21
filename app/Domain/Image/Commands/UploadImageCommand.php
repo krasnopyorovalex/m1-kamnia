@@ -56,23 +56,15 @@ class UploadImageCommand
 
             (new ImageManager())
                 ->make(Storage::path($path))
-                ->resize(360, 360)
-                ->save(str_replace('.'.$extension, '_thumb.' . $extension, Storage::path($path)));
+                ->fit(360, 360)
+                ->insert(public_path('images/watermark_thumb.png'), 'top-left', 25, 25)
+                ->save(storage_path('app/'.str_replace('.'.$extension, '_thumb.' . $extension, $path)));
         }
 
-//        $im = (new ImageManager())->make(Storage::path($path));
-
-//        $imHeight = $im->height();
-//        $imWidth = $im->width();
-
-//        $im->text('fabrikabani-krym.ru', abs($imWidth/2), abs($imHeight/2), static function($font) {
-//            $font->file(public_path('fonts/Arial-Black.ttf'));
-//            $font->size(24);
-//            $font->color(array(255, 255, 255, 0.6));
-//            $font->align('center');
-//            $font->valign('middle');
-//            $font->angle(45);
-//        })->save(Storage::path($path));
+        (new ImageManager())
+            ->make(Storage::path($path))
+            ->insert(public_path('images/watermark.png'), 'top-left', 30, 30)
+            ->save(storage_path('app/'.$path));
 
         return $this->dispatch(new CreateImageCommand([
             'path' => Storage::url($path),

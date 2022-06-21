@@ -61,7 +61,7 @@ class CatalogProductImageController extends Controller
         $this->uploadCatalogProductImagesService->setWidthThumb(360);
         $this->uploadCatalogProductImagesService->setHeightThumb(360);
 
-        $image = $this->uploadCatalogProductImagesService->upload($request, 'catalog_products', $catalogProduct);
+        $image = $this->uploadCatalogProductImagesService->upload($request, 'catalog_products', $catalogProduct, true);
         $this->dispatch(new CreateCatalogProductImageCommand($image));
 
         return [

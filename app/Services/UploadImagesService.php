@@ -120,39 +120,15 @@ class UploadImagesService
         (new ImageManager())
             ->make($this->image)
             ->fit($this->widthThumb, $this->heightThumb)
+            ->insert(public_path('images/watermark_thumb.png'), 'top-left', 25, 25)
             ->save(public_path('storage/' . $this->entity . '/' . $this->entityId .'/' . $this->getImageHashName() . '_thumb.' . $this->getExt()));
     }
 
     private function createWatermark()
     {
-        $im = (new ImageManager())->make($this->image);
-
-        $imHeight = $im->height();
-        $imWidth = $im->width();
-
-        $im->text('privatestate-crimea.ru', abs($imWidth/2), abs($imHeight/2), static function($font) {
-            $font->file(public_path('fonts/Arial-Black.ttf'));
-            $font->size(24);
-            $font->color(array(255, 255, 255, 0.6));
-            $font->align('center');
-            $font->valign('middle');
-            $font->angle(45);
-        })->save(public_path('storage/' . $this->entity . '/' . $this->entityId .'/' . $this->getImageHashName() . '.' . $this->getExt()));
-
-        $imThumb = (new ImageManager())->make(
-            public_path('storage/' . $this->entity . '/' . $this->entityId .'/' . $this->getImageHashName() . '_thumb.' . $this->getExt())
-        );
-
-        $imHeightThumb = $imThumb->height();
-        $imWidthThumb = $imThumb->width();
-
-        $imThumb->text('privatestate-crimea.ru', abs($imWidthThumb/2), abs($imHeightThumb/2), static function($font) {
-            $font->file(public_path('fonts/Arial-Black.ttf'));
-            $font->size(24);
-            $font->color(array(255, 255, 255, 0.6));
-            $font->align('center');
-            $font->valign('middle');
-            $font->angle(45);
-        })->save(public_path('storage/' . $this->entity . '/' . $this->entityId .'/' . $this->getImageHashName() . '_thumb.' . $this->getExt()));
+        (new ImageManager())
+            ->make($this->image)
+            ->insert(public_path('images/watermark.png'), 'top-left', 30, 30)
+            ->save(public_path('storage/' . $this->entity . '/' . $this->entityId .'/' . $this->getImageHashName() . '.' . $this->getExt()));
     }
 }
