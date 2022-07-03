@@ -119,7 +119,9 @@ class UploadImagesService
     {
         (new ImageManager())
             ->make($this->image)
-            ->fit($this->widthThumb, $this->heightThumb)
+            ->fit($this->widthThumb, $this->heightThumb, function ($constraint) {
+                $constraint->upsize();
+            })
             ->insert(public_path('images/watermark_thumb.png'), 'top-left', 25, 25)
             ->save(public_path('storage/' . $this->entity . '/' . $this->entityId .'/' . $this->getImageHashName() . '_thumb.' . $this->getExt()));
     }

@@ -56,7 +56,9 @@ class UploadImageCommand
 
             (new ImageManager())
                 ->make(Storage::path($path))
-                ->fit(360, 360)
+                ->fit(360, 360, function ($constraint) {
+                    $constraint->upsize();
+                })
                 ->insert(public_path('images/watermark_thumb.png'), 'top-left', 25, 25)
                 ->save(storage_path('app/'.str_replace('.'.$extension, '_thumb.' . $extension, $path)));
         }
