@@ -4218,8 +4218,11 @@ textarea.textarea-lg {
   color: #151515;
   font-size: 18px;
 }
-.contacts-creative li:first-child {
+.contacts-creative li {
   text-decoration: underline;
+}
+.contacts-creative li:last-child {
+  text-decoration: none;
 }
 .contacts-creative a,
 .contacts-creative a:active,
