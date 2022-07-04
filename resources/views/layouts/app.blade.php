@@ -179,7 +179,7 @@
                                 <li>
                                     <div class="unit unit-spacing-sm flex-column flex-md-row">
                                         <div class="unit-body">
-                                            <p><b>Написать нам:</b></p>
+                                            <b>Написать нам:</b>
                                             <span class="h-icons-list">
                                                 <a href="https://wa.me/79789455747" rel="noopener noreferrer"><img src="{{ asset('images/whatsapp.svg') }}" alt=""></a><a href="viber://add?number=79785779775" rel="noopener noreferrer"><img src="{{ asset('images/viber.svg') }}" alt=""></a><a href="https://t.me/master_N1_rf" rel="noopener noreferrer"><img src="{{ asset('images/telegram.svg') }}" alt=""></a>
                                             </span>
