@@ -4218,7 +4218,7 @@ textarea.textarea-lg {
   color: #151515;
   font-size: 18px;
 }
-.contacts-creative li {
+.contacts-creative li:first-child {
   text-decoration: underline;
 }
 .contacts-creative a,
