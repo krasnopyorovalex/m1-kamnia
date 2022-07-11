@@ -13,27 +13,6 @@
     <link href="{{ asset('favicon.ico') }}" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body>
-    <div class="preloader">
-        <div class="preloader-body">
-            <div class="cssload-bell">
-                <div class="cssload-circle">
-                    <div class="cssload-inner"></div>
-                </div>
-                <div class="cssload-circle">
-                    <div class="cssload-inner"></div>
-                </div>
-                <div class="cssload-circle">
-                    <div class="cssload-inner"></div>
-                </div>
-                <div class="cssload-circle">
-                    <div class="cssload-inner"></div>
-                </div>
-                <div class="cssload-circle">
-                    <div class="cssload-inner"></div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="page">
         <section class="section section-single context-dark bg-image bg_404" style="background-image: url('/images/bg-404.jpg');">
             <div class="section-single-inner">
