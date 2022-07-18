@@ -120,7 +120,7 @@ class CatalogProduct extends Model
      */
     public function getPrice(): string
     {
-        return sprintf('%s &#8381;', number_format($this->price, 0, '.', ' '));
+        return sprintf('от %s &#8381; п.м.', number_format($this->price, 0, '.', ' '));
     }
 
     /**
