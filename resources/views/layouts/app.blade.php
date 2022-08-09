@@ -243,6 +243,9 @@
         </script>
         <noscript><div><img src="https://mc.yandex.ru/watch/89479917" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
+
+        <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+        <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?cbk_code=49b67b8753c240bbe6babc4a2c83d653" charset="UTF-8" async></script>
     @endif
 </body>
 </html>
